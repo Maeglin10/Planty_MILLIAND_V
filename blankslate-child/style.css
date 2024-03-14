@@ -1,0 +1,132 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://opencollective.com/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://opencollective.com/blankslate#section-contributors
+Description: Donations: https://opencollective.com/blankslate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2024.1709569522
+Updated: 2024-03-04 16:25:22
+
+*/
+
+
+
+header {
+    display: flex;
+    gap: 70%;
+}
+
+.logo {
+    justify-content: flex-start;
+    width: 201px;
+    height: 19px;
+    margin-left: 37px;
+    margin-top: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #DC9F96;
+    width: 200px;
+    height: 80px;
+    margin-left: 1290px;
+    font-size: 16px;
+    margin-top: -40px;
+    margin-bottom: -16px;
+    padding-right: 40px;
+    text-decoration: white;
+}
+
+.menu-commander {
+    background-color: #DC9F96;
+    width: 236px;
+    height: 80px;
+    margin-left: 1204px;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.input-rencontrer {
+    width: 381px;
+    height: 71px;
+    border-radius: 7px !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-style: hidden;
+}
+
+.input-message {
+    width: 381px;
+    height: 271px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border-style: hidden;
+}
+
+.entry-title {
+    display: none !important;
+}
+
+.number-commander {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.image-quantite {
+    width: 192.53px;
+    height: 128.36px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    width: 39px;
+    height: 40px;
+    margin-left: 40%;
+}
+
+.informations {
+    margin-bottom: 10px;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.box {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 383px;
+    height: 71px;
+    border-radius: 10px;
+    border-style: hidden;
+    color: white;
+    border-radius: 7px !important;
+}
+
+h4 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white !important;
+}
